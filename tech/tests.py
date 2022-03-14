@@ -1,5 +1,6 @@
 from django.test import TestCase
 from .models import Product, ProductType, Review
+from django.urls import reverse_lazy, reverse
 # Create your tests here.
 class ProductTypeTest(TestCase):
    def test_string(self):
